@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap" rel="stylesheet">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
+        
+        <title>About Me</title>
+        
+
+        <style>
+        /*
+  1. Use a more-intuitive box-sizing model.
+*/
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+/*
+  2. Remove default margin
+*/
+* {
+  margin: 0;
+}
+/*
+  3. Allow percentage-based heights in the application
+*/
+html, body {
+  height: 100%;
+}
+/*
+  Typographic tweaks!
+  4. Add accessible line-height
+  5. Improve text rendering
+*/
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+/*
+  6. Improve media defaults
+*/
+picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+/*
+  7. Remove built-in form typography styles
+*/
+input, button, textarea, select {
+  font: inherit;
+}
+/*
+  8. Avoid text overflows
+*/
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+/*
+  9. Create a root stacking context
+*/
+#root, #__next {
+  isolation: isolate;
+}
+        
+        
+            header {
+                background-color:black;
+                padding: 20px 0;
+                color:white;
+            }
+            .nav {
+                position: relative;
+                width: 940px;
+                margin: 0 auto;
+            }
+            nav {
+                position: absolute;
+                top: 3px;
+                right: 0px;
+            }
+            nav li{
+                display: inline;
+                margin: 0 0 0 15\px;
+            }
+            nav a{
+                text-transform:uppercase;
+                color:black;
+                font-weight:bold;
+                font-size:22px;
+                text-decoration:none;
+                transition:0.2s;
+                color:white;
+            }
+            nav a:hover{
+                color:white;
+                text-decoration:underline;
+            }
+            main{
+                text-align:center;
+            }
+            .nb {
+                font-weight:Normal;
+                font-family: 'PT Sans', sans-serif;
+            }
+            .hoover:hover {
+                color:red;
+                text-decoration:underline;
+            }
+            #scrobble {
+                color:red;
+            }
+            footer {
+                background-color: #000;
+                width:100%;
+                color:white;
+            }
+            footer p{
+                left:46%;
+                bottom:20px;
+            }
+            footer {
+                height:15vh;
+                bottom:0;
+            }
+            ul{
+                position:relative;
+            }
+            table{
+                margin-left:auto;
+                margin-right:auto
+            }
+            .div{
+                text-align:center;
+            }
+            ul{
+                display:inline-block;
+                text-align:left;
+            }
+            .font1{
+                font-family: 'Montserrat', sans-serif;
+            }
+            .font2{
+                font-family: 'Roboto Mono', monospace;
+            }
+            .helvetica{
+                font-family:Helvetica;
+                font-size:18px;
+            }
+            #ULC{
+                color:DarkCyan;
+            }
+            body{
+                background-color:lightgray;
+            }
+            .font4{
+                font-family: 'Source Serif Pro', serif;
+            }
+            .red{
+                color:Purple;
+            }
+            .font5{
+                font-family:sans-serif;
+            }
+            .fantasy{
+                font-family: 'Bebas Neue', cursive;
+                font-size:17px;
+                font-weight:Normal;
+            }
+            .prom{
+                font-family: 'Prompt', sans-serif;
+            }
+            rojo{
+                color:red;
+            }
+            th{
+                background-color:beige;
+            }
+            .cors
+            {
+                background-color:#DAFECE;
+            }
+            .cors2{
+                background-color:#CEF6FE;
+            }
+            #h1 {
+                font-size:25px;
+            }
+            #fot{
+                color:white;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <header>
+            <div class="nav">
+                <h2>ARTHUR'S HOMEPAGE</h2>
+                <nav>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="https://github.com/yArthu">My GitHub</a></li>
+                        <li><a href="https://last.fm/pt/user/MsAqua">My last.fm</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <br>
+        <main>
+            <div>
+                <h1 class="red" id="h1">
+                    Hello, my name is Arthur and I am 15 years old (16 in April).<br>
+                    I am from Brazil but I moved in August 2022 to Clinton, Massachusetts.
+                </h1>
+                <hr>
+                <div class="font1">
+                    In Brazil, I always lived in the same city, which is Taboao da Serra, Sao Paulo.
+                    <br>I could say that there is similar to Clinton and the towns around here,<br>even the distance
+                     from Clinton to Boston is kinda similar.<br>However, Clinton is smaller and has less things 
+                    to do and places to go.<br>
+                    <br>
+                    Though it's smaller, living in Clinton is not bad at all, since I like to stay at home,<br>
+                    either playing some games, reading or whatever it is. The only problem is that<br>
+                    the social bubble is quite limited. But since I talk to my online friends from Brazil,<br>
+                    it's all good.
+                </div>
+                <div>
+                    <img src="https://i.imgur.com/XzBPf7m.png" width=200px>
+                </div>
+                <hr>
+                <p class="helvetica">I'm not a Jack of all trades of hobbies, but here are some things that I like to do:
+                <div class="div">
+                <ul class="font2" id="ULC">
+                    <li>Play Videogames</li>
+                        <ul>
+                            <li><a href="https://en.wikipedia.org/wiki/Valorant" class="hoover">Valorant</a></li>
+                            <li><a href="https://en.wikipedia.org/wiki/Rocket_League" class="hoover">Rocket League</a></li>
+                            <li><a href="https://en.wikipedia.org/wiki/FIFA_(video_game_series)" class="hoover">FIFA</a></li>
+                            <li><a href="https://en.wikipedia.org/wiki/Subnautica" class="hoover">Subnautica</a></li>
+                        </ul>
+                    <li>Read Books</li>
+                        <ul>
+                            <li><a href="https://en.wikipedia.org/wiki/Light_novel" class="hoover">Light Novel</a></li>
+                        </ul>
+                    <li>Listen to Music</li>
+                    <li>Sing</li>
+                    <li>Since it`s still easy, Coding</li>
+                </ul>
+                </div>
+                </p>
+                
+                <h3 class="nb">
+                    In this course, I want to learn how to code using HTML and CSS.<br>
+                    Consenquently, I want to explore more about this area and learn other codes.
+                </h3>
+                <img src="https://tinyurl.com/bztkek4p" width=600px>
+                <h6>
+                    Source: Deagreez, <a href="https://www.istockphoto.com/photo/close-up-photo-handsome-he-him-his-guy-coder-make-take-selfies-blog-advising-web-gm1163541636-319526619">iStock Photo</a>
+                </h6>
+            </div>
+            <hr>
+            <div>
+                <h2 class="font4">Random Facts</h2>
+                <p class="font5">Through the <a href="https://last.fm" class="hoover">last.fm</a>, these are the artists
+                that I listened <span id="scrobble">(1 time listened = 1 scrobble)</span><br>the most since I started using the website and since 01/01/2023:
+               
+               <h5 id="rojo">I made a special website to Aimer and Kenshi Yonezu, check it out!</h5>
+               
+                <table border="1" id="testing">
+                    <tr>
+                        <th class="fantasy">Artist</th>
+                        <th class="fantasy">Scrobbles 2023</th>
+                    </tr>
+                    <tr class="prom">
+                        <td class="cors"><a href="https://en.wikipedia.org/wiki/Hiroyuki_Sawano" class="hoover">Hiroyuki Sawano</a>
+                        <td class="cors2">561</td>
+                    </tr>
+                    <tr class="prom">
+                        <td class="cors"><a href="https://yarthu.github.io/Aimer/" class="hoover">Aimer</a></td> 
+                        <td class="cors2">522</td>
+                    </tr>
+                    <tr class="prom">
+                        <td class="cors"><a href="https://en.wikipedia.org/wiki/Kendrick_Lamar" class="hoover">Kendrick Lamar</a></td> 
+                        <td class="cors2">294</td>
+                    </tr>
+                    <tr class="prom">
+                        <td class="cors"><a href="https://yarthu.github.io/KenshiYonezu/" class="hoover">Kenshi Yonezu</a></td>
+                        <td class="cors2">232</td>
+                    </tr>
+                    <tr class="prom">
+                        <td class="cors"><a href="https://07th-expansion.fandom.com/wiki/Dai" class="hoover">Dai</a></td>
+                        <td class="cors2">156</td>
+                    </tr>
+                </table>
+                </p>
+            </div>
+            <br>
+            <div>
+                <table border="1">
+                    <tr>
+                        <th class="fantasy">Artist</th>
+                        <th class="fantasy">Scrobbles All Time</th>
+                    </tr>
+                    <tr class="prom">
+                        <td class="cors"><a href="https://yarthu.github.io/Aimer/" class="hoover">Aimer</a></td>
+                        <td class="cors2">2.075</td>
+                    </tr>
+                    <tr class="prom">
+                        <td class="cors"><a href="https://en.wikipedia.org/wiki/Hiroyuki_Sawano" class="hoover">Hiroyuki Sawano</a></td>
+                        <td class="cors2">1.732</td>
+                    </tr>
+                    <tr class="prom">
+                        <td class="cors"><a href="https://07th-expansion.fandom.com/wiki/Dai" class="hoover">Dai</a></td>
+                        <td class="cors2">757</td>
+                    </tr>
+                    <tr class="prom">
+                        <td class="cors"><a href="https://en.wikipedia.org/wiki/Kendrick_Lamar" class="hoover">Kendrick Lamar</a></td>
+                        <td class="cors2">738</td>
+                    </tr>
+                    <tr class="prom">
+                        <td class="cors"><a href="https://en.wikipedia.org/wiki/C418">C418</a></td>
+                        <td class="cors2">567</td>
+                    </tr>
+                    <tr class="prom">
+                        <td class="cors"><a href="https://en.wikipedia.org/wiki/Twice">TWICE</a></td>
+                        <td class="cors2">523</td>
+                    </tr>
+                </table>
+            </div>
+        </main>
+        <br>
+         <footer>
+             <h5><a id="fot" rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</h5>
+         </footer>
+         
+    </body>
+</html>
